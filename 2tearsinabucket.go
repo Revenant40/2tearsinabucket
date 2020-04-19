@@ -42,7 +42,7 @@ func getStatusCode(url string) string {
 
 func main() {
 
-  target := flag.String("t","foo", "target")
+  target := flag.String("t"," ", "target")
 	wordlist := flag.String("w","bucket-names.txt", "wordlist")
 
 	var words = fmt.Sprintf("%s", *wordlist)
@@ -58,6 +58,11 @@ func main() {
   fmt.Println(" ++ Target Set To:", *target)
 	fmt.Println(" ++ Wordlist Set To:", *wordlist)
   fmt.Println("\n+++ Only checking for buckets with a 200 or 403 response code +++\n")
+	
+  if *target == " " {
+		fmt.Println("Use the -t flag to set your target (e.g ./2tearsinabucket -t 'targets name')\n")
+		os.Exit(1)
+	}
 
   readFile, err := os.Open(words)
 	if err != nil {
