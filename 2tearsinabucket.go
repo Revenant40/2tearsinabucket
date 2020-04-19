@@ -53,10 +53,10 @@ func main() {
             /   /(
            /(  ((_)    2 TEARS IN A BUCKET
           (#_)`)
-	fmt.Println("\n ++ Created By: Revanent")
-	fmt.Println(" ++ ASCII Art By: VK")
+  fmt.Println("\n ++ Created By: Revanent")
+  fmt.Println(" ++ ASCII Art By: VK")
   fmt.Println(" ++ Target Set To:", *target)
-	fmt.Println(" ++ Wordlist Set To:", *wordlist)
+  fmt.Println(" ++ Wordlist Set To:", *wordlist)
   fmt.Println("\n+++ Only checking for buckets with a 200 or 403 response code +++\n")
 	
   if *target == " " {
