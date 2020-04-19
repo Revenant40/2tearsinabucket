@@ -18,6 +18,6 @@ Examples:
 - `./2tearsinabucket -w bucket-names.txt -t target`
 
 Options:
-- `-w bucket-names.txt` is your list of suffixes to add to you target name.
+- `-w bucket-names.txt` is your list of suffixes to add to your targets name.
 - `-t` is the name of the target you wish to enumerate. 
 
