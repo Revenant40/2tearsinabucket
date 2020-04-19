@@ -8,8 +8,8 @@
 
 ## Installing
 
-Requires [awscli](https://docs.aws.amazon.com/cli/latest/userguide/install-linux.html)
-Requires [Go](https://golang.org/dl/)
+- Requires [awscli](https://docs.aws.amazon.com/cli/latest/userguide/install-linux.html)
+- Requires [Go](https://golang.org/dl/)
 
 `go get github.com/Revenant40/2tearsinabucket`
 
