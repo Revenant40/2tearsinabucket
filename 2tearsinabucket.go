@@ -50,13 +50,16 @@ func main() {
   fmt.Println(`
             /   /(
            /(  ((_)    2 TEARS IN A BUCKET
-          (#_)`)
-  fmt.Println("\n ++ Created By: Revanent")
-  fmt.Println(" ++ ASCII Art By: VK")
-  fmt.Println(" ++ Target Set To:", *target)
-  fmt.Println(" ++ Wordlist Set To:", *wordlist)
-  fmt.Println("\n+++ Only checking for buckets with a 200 or 403 response code +++\n")
-
+          (#_)`+ "\n")
+	
+  fmt.Println("===============================================")
+  fmt.Println(" [+] Created By: Revanent")
+  fmt.Println(" [+] ASCII Art By: VK")
+  fmt.Println(" [+] Target Set To:", *target)
+  fmt.Println(" [+] Wordlist Set To:", *wordlist)
+  fmt.Println("===============================================")
+  fmt.Println("\n=== Only checking for buckets with a 200 or 403 response code ===\n")
+	
   readFile, err := os.Open(*wordlist)
 	if err != nil {
 		log.Fatalf("failed to open file: %s", err)
