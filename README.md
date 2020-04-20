@@ -22,3 +22,10 @@ Options:
 - `-w bucket-names.txt` is your list of suffixes to add to your targets name.
 - `-t` is the name of the target you wish to enumerate. 
 
+## Thank you:
+- Just want to say thank you to the creators of sandcastle.py. This project was heavily inspired by you.
+
+## Donate:
+- If this project has scored you a bug bounty and you feel like paying back its much appreciated.
+  <a href="bitcoin:36j8C43FSftiQVjAdxzZH1GF4NAMF39k3M"><img src="https://i.stack.imgur.com/MnQ6V.png"></a>
+ 
