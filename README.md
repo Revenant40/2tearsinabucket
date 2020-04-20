@@ -23,9 +23,9 @@ Options:
 - `-t` is the name of the target you wish to enumerate. 
 
 ## Thank you:
-- Just want to say thank you to the creators of sandcastle.py. This project was heavily inspired by you.
+Just want to say thank you to the creators of sandcastle.py. This project was heavily inspired by you.
 
 ## Donate:
- <a href="http://KristinitaTest.github.io/donate/Bitcoin-Redirect"><img src="https://i.stack.imgur.com/MnQ6V.png"></a>
+ <a href="bitcoin:17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2"><img src="https://i.stack.imgur.com/MnQ6V.png"></a>
 
-- If this project has scored you a bug bounty and you feel like paying back its much appreciated.
+If this project has scored you a bug bounty and you feel like paying back its much appreciated.
