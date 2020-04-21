@@ -26,6 +26,8 @@ Options:
 Just want to say thank you to the creators of sandcastle.py. This project was heavily inspired by you.
 
 ## Donate:
+<html>
  <a href="bitcoin:17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2"><img src="https://i.stack.imgur.com/MnQ6V.png"></a>
+ </html>
 
 If this project has scored you a bug bounty and you feel like paying back its much appreciated.
